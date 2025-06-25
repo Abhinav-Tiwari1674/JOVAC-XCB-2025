@@ -1,0 +1,58 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f9; /* Slightly lighter background */
+  text-align: center;
+  padding-top: 50px; /* Increased padding for better spacing */
+}
+
+#info-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px; /* Slightly more rounded corners */
+  width: 300px; /* Increased width for a more spacious look */
+  margin: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Softer, bigger shadow */
+  transition: box-shadow 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+#info-box:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More prominent shadow on hover */
+}
+
+img {
+  width: 100px; /* Larger avatar */
+  border-radius: 50%;
+  margin-bottom: 15px; /* Added more margin for better spacing */
+}
+
+h1 {
+  color: #333;
+  font-size: 24px; /* Slightly larger font size */
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #0366d6;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 15px;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #004aad; /* Darker blue on hover */
+}
